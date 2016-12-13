@@ -1,0 +1,158 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+body
+{
+	background-image: url(../845cd7_ead1a4b3c6e045dd82cacd8d6248068e.jpg);
+	padding: 15px;
+	font: 100% normal Arial, Helvetica, sans-serif;
+}
+
+form
+{
+	text-align: left;
+	width: 800px;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+div.box
+{
+	margin: 0;
+	background: white;
+	position: center;
+	border: 1px solid #262626;
+	padding: 40px;
+	border-radius: 15px;
+}
+p.starter
+{
+  text-align: center;
+  /*
+padding-top: 5px;
+padding-left: 20px;
+*/
+}
+div.box h1
+{
+	padding: 10px;
+	text-align: center;
+}
+input.starter
+{
+margin-left: 20px;
+}
+#sponsor
+{
+margin-top: 5px;
+margin-right: 35px;
+float: right;
+}
+#starter
+{
+text-align: center;
+clear: both;
+padding-right: 15px;
+}
+#regulamin
+{
+font-weight: bolder;
+clear: both;
+padding-top: 15px;
+}
+
+input.pole
+{
+	font-color: gray;
+   -webkit-box-sizing::border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0 5px;
+    vertical-align:top;
+    border:1px solid darkblue;
+    height:27px;
+    background:#fff;
+    font-size:13px;
+    font-family:'Open Sans', sans-serif;
+    color:#666;
+    display:block;
+    width:100%;
+    border-radius: 7px;
+}
+
+
+label
+{
+	padding: 10px;
+	display: block;
+}
+#guzik
+{
+padding-top: 10px;
+padding-left: 5px;
+}
+#wyslij
+{
+width: 60px;
+height: 40px;
+color: white;
+font-family: inherit;
+font-size: 17px;
+border-radius: 7px;
+background-color: darkgray;
+}
+#wyslij:hover
+{
+background-color: gray;
+}
+#wyslij:active
+{
+background-color: red;
+}
+#header
+{
+	font-size: 25px;
+}
+
+p.dzial
+{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: red;
+}
+a
+{
+		text-decoration: none;
+}
+div.powrot
+{
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	width: 80px;
+	height: 25px;
+	color: white;
+	font-family: inherit;
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: darkgray;
+}
+div.powrot:hover
+{
+background-color: gray;
+cursor: default;
+}
+div.powrot:active
+{
+background-color: red;
+}
+div.powrot a:link { color: white; text-decoration: none; background-color: transparent }
+div.powrot a:visited { color: white;text-decoration: none; background-color: transparent }
+div.powrot a:hover { color: white;text-decoration: none; background-color: transparent }
+div.powrot a:active { color:white; text-decoration: none; background-color: transparent }

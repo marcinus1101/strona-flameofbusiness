@@ -1,5 +1,91 @@
+<!DOCTYPE HTML>
 <html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script language="javascript" type="text/javascript" src="js/jquery.js"> </script>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css"
+<title> Rejestracja </title>
 </head>
+<body>
+<center>
+<form id="formularz" name="formularz" action="skrypt.php" method="post">
+<div class="box">
+	<h1> Formularz Rejestracyjny do Klubu </h1>
+	<label>
+	<span>Email: </span>
+	<input type="email" name="email" class="pole" id="email" required/>
+	</label>
+
+	<label>
+	<span>Imie: </span>
+	<input type="text" name="imie" class="pole" id="imie" required/>
+	</label>
+
+	<label>
+	<span>Nazwisko: </span>
+	<input type="text" name="nazwisko" class="pole" id="nazwisko" required/>
+	</label>
+
+	<label>
+	<span>Pesel: </span>
+	<input type="text" name="pesel" class="pole" id="pesel" pattern="[0-9]{11}" title="Numer Pesel 11 cyfr" required/>
+	</label>
+
+	<label>
+	<span>Telefon: </span>
+	<input type="tel" name="telefon" class="pole" id="telefon" pattern="[0-9]{9}" title="Nr Telefonu 9 cyfr" required/>
+	</label>
+
+	<label>
+	<span>Adres zamieszkania: </span>
+	<input type="text" name="adres" class="pole" id="adres" required/>
+	</label>
+
+	<label>
+	<span>Kod pocztowy: </span>
+	<input type="text" name="kod_pocztowy" class="pole" id="kod_pocztowy" pattern="[0-9]{2}-[0-9]{3}" title="Format: XX-XXX" required/>
+	</label>
+
+	<label>
+	<span>Miasto: </span>
+	<input type="text" name="miasto" class="pole" id="miasto" required/>
+	</label>
+	<label>
+<p class="starter">Jestem w stanie zainwestować: </p><br>
+<div id="starter">
+	<input type="radio" name="STARTER" value = "35zł" class="starter" required=""> 35zł</input>
+	<input type="radio" name="STARTER" value = "55zł" class="starter"> 55zł</input>
+	<input type="radio" name="STARTER" value = "100zł" class="starter"> 100zł</input>
+	<input type="radio" name="STARTER" value = "300zł" class="starter"> 300zł</input>
+</div>
+<!--<div id="sponsor">
+<span>Zaprosił mnie </span>
+<select name="SPONSOR">
+	<option> Marcin Włodarczak </option>
+	<option> Anna Domarus </option>
+	<option> Bartosz Dąbek </option>
+</select>
+</div>-->
+</label>
+
+<label>
+		<div id="regulamin">
+		<input type="checkbox" required > Akceptuje <a href="Regulamin.html">Regulamin</a> Klubu Oriflame </input>
+	</div>
+</label>
+<label>
+		<div id="webinar">
+		<input type="checkbox" required > Zobowiązuje się do aktywnego uczestniczenia w webinarach</input>
+	</div>
+</label>
+
+	<label>
+	<input name="send" id="wyslij"  type="submit" class="button" value="Wyślij"/>
+	</label>
+
+</center>
+</div>
+</form>
+
+</body>
 </html>
